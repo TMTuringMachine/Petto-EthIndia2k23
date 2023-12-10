@@ -1,5 +1,9 @@
 <h2 align="center">Petto - Travel without having to worry about your pets! </h2>
 
+## 🔑 Bounty Implementation
+ - Scroll: please check Scroll.md for its relevant implementation and verification
+ - Push-Bounty: please check Push-Bounty.md for its implementation
+
 ## 🔑 Admin-credentials
 Directly login into admin using the following credentials
  - Email: admin@gmail.com
