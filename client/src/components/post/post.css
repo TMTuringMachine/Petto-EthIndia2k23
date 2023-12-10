@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@400;500&display=swap');
+.post-container {
+    box-shadow: 0px 0px 32px 3px rgba(0, 0, 0, 0.25);
+    padding: 40px 110px;
+    height: max-content;
+    width: max-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    font-family: Poppins, sans-serif;
+    margin-bottom: 4rem;
+}
+.image-container {
+    height: 35rem;
+    width: 50rem;
+    background-color: grey;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-container img{
+    max-width: 50rem;
+    max-height: 35rem;
+}
+.author-container {
+    display: flex;
+}
+.dp-container{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+.display-pic{
+    height: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background-color: grey;
+}
+.info-container {
+    display: flex;
+    flex-direction: column;
+    width: 27rem;
+}
+.username {
+    font-size: larger;
+    font-weight: 550;
+}
+.caption {
+    font-size: 0.9rem;
+}
+.likes-container {
+    display: flex;
+    margin-top: 1rem
+}
+.likes-container p {
+    margin-left: 0.8rem;
+    /* margin-bottom: -0.7rem; */
+    margin-top: 0.5rem;
+}
+
+#like-count {
+    margin-right: -0.4rem;
+    font-weight: 800;
+    margin-top: 0.5rem;
+}
